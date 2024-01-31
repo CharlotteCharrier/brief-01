@@ -23,6 +23,7 @@ You may also see any lint errors in the console.
 
 Après avoir découvert le brief j'ai effectué une maquette sur figma.
 
+![Capture](https://github.com/CharlotteCharrier/brief-01/assets/158159781/117c001d-b095-443e-8fb0-fa15612cf3ec)
 
 
 Puis j'ai pris connaissance du fichier index.html et j'ai modifié "voir les abonnements" par "voir les tarifs".
