@@ -54,6 +54,17 @@ section.features .feature-container .feature {
   box-sizing: border-box;
 }
 
+.time {
+  color: #007bff;
+}
+
+.prices {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 /* Media Queries */
 
 /* Pour les écrans jusqu'à 900px de large */
