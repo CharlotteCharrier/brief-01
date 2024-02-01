@@ -4,7 +4,7 @@ import '../design/Header.css';
 export default function Header() {
 
   const anchor = document.querySelector('#pricing')
-  anchor?.scrollIntoView({behavior: 'smooth', block: 'center'});
+  anchor?.scrollIntoView({behavior: 'smooth'});
 
   return (
     <header>
