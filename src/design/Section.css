@@ -1,16 +1,16 @@
-section.features {
+section.features, section.pricings {
     text-align: center;
     padding: 50px 20px;
   }
   
-  section.features > .feature-container {
+  section.features > .feature-container, section.pricings > .pricing-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
   
-  section.features .feature-container .feature {
+  section.features .feature-container .feature, section.pricings .pricing-container .pricing {
     flex-basis: calc(33.333% - 20px);
     padding: 20px;
     border: 1px solid #ccc;
@@ -35,14 +35,14 @@ section.features {
   
   /* Pour les écrans jusqu'à 900px de large */
   @media (max-width: 900px) {
-    section.features .feature-container .feature {
+    section.features .feature-container .feature, section.pricings .pricing-container .pricing {
         flex-basis: calc(50% - 20px); /* Ajustez le 20px si votre gap est différent */
     }
   }
   
   /* Pour les écrans jusqu'à 600px de large */
   @media (max-width: 600px) {
-    section.features .feature-container .feature {
+    section.features .feature-container .feature, section.pricings .pricing-container .pricing {
         flex-basis: 100%;
     }
   }
