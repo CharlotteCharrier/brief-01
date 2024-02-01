@@ -43,7 +43,7 @@ Je me suis basée sur la même maquette que pour la partie httml/css.
 
 J'ai créé un composant Pricing que j'ai appelé dans Home.jsx.
 
-J'ai personnalisé le css de mon composant.
+J'ai combiné le css de feature et de pricing dans un fichier commun appelé section.css.
 
 J'ai changé le bouton 'voir les abonnements' par 'voir les tarifs' dans le Header.
 
