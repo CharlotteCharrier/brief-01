@@ -2,6 +2,10 @@ import React from 'react';
 import '../design/Header.css';
 
 export default function Header() {
+
+  const anchor = document.querySelector('#pricing')
+  anchor?.scrollIntoView({behavior: 'smooth', block: 'center'});
+
   return (
     <header>
       <nav>

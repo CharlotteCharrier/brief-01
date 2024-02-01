@@ -2,8 +2,9 @@ import React from "react";
 import '../design/Pricing.css';
 
 export default function Pricing() {
+
     return (
-        <section id="features" className="features">
+        <section id="pricing" className="features">
             <h2>Tarifs</h2>
             <div className="feature-container">
                 <div className="feature">
